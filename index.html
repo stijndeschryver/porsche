@@ -7,26 +7,28 @@
             margin: 0;
             padding: 20px;
             display: flex;
-            flex-direction: column;
             align-items: center;
+            justify-content: center;
             min-height: 100vh;
             background: #f0f0f0;
             gap: 20px;
         }
-        iframe { border: none;
-            background: white;
-            overflow: hidden; }
+        iframe {
+            border: 1px solid black;
+            background: #f8f8f8;
+            overflow: hidden;
+        }
     </style>
 </head>
 <body>
-<iframe id="ad1" width="970" height="250"></iframe>
-<iframe id="ad2" width="970" height="250"></iframe>
+<iframe id="ad1" width="300" height="600"></iframe>
+<iframe id="ad2" width="300" height="600"></iframe>
 
 <script>
     window.addEventListener('load', () => {
         setTimeout(() => {
-            ad1.src = './old/Advertisement.html';
-            ad2.src = './new/000831-NewBizz-VW_970x250_NL.html';
+            ad1.src = './old/PORS2501_PHEV_BANNERS-PANAMERA-NL-300x600.html';
+            ad2.src = './new/000831-NewBizz-Porsche_300x600_NL.html';
         }, 500);
     });
 </script>
